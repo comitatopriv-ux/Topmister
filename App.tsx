@@ -1,14 +1,14 @@
 import React from 'react';
 import { useAppContext } from './context/AppContext';
-import Layout from './components/Layout';
+import Layout from './Layout';
 import Dashboard from './Dashboard';
 import MatchesScreen from './MatchesScreen';
 import PlayersScreen from './PlayersScreen';
 import StatsScreen from './StatsScreen';
 import CoachesScreen from './CoachesScreen';
 import TeamsScreen from './TeamsScreen';
-import Toast from './components/common/Toast';
-import MatchReportModal from './components/common/MatchReportModal';
+import Toast from './Toast';
+import MatchReportModal from './MatchReportModal';
 
 const App: React.FC = () => {
   const { activeTab, activeTeamId, toast, reportingMatchId, clearMatchReport } = useAppContext();
