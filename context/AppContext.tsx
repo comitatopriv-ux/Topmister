@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useCallback } from 'react';
-import useLocalStorage from '../hooks/useLocalStorage';
+import useLocalStorage from '../useLocalStorage';
 import {
   AppContextType,
   AppProviderProps,
@@ -14,7 +14,7 @@ import {
   MatchReport
 } from '../types';
 import { NAV_ITEMS } from '../constants';
-import { generateCoachInsight, generateMatchReport } from '../services/geminiService';
+import { generateCoachInsight, generateMatchReport } from '../geminiService';
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
