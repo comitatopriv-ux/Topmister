@@ -1,12 +1,12 @@
 import React from 'react';
 import { useAppContext } from './context/AppContext';
 import Layout from './components/Layout';
-import Dashboard from './screens/Dashboard';
-import MatchesScreen from './screens/MatchesScreen';
-import PlayersScreen from './screens/PlayersScreen';
-import StatsScreen from './screens/StatsScreen';
-import CoachesScreen from './screens/CoachesScreen';
-import TeamsScreen from './screens/TeamsScreen';
+import Dashboard from './Dashboard';
+import MatchesScreen from './MatchesScreen';
+import PlayersScreen from './PlayersScreen';
+import StatsScreen from './StatsScreen';
+import CoachesScreen from './CoachesScreen';
+import TeamsScreen from './TeamsScreen';
 import Toast from './components/common/Toast';
 import MatchReportModal from './components/common/MatchReportModal';
 
